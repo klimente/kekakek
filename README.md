@@ -1,7 +1,7 @@
 
 #Hello? America
 
-pip install -e "git+https://github.com/klimente/kekakek.git#egg=newscipy&subdirectory=stats"
+pip install -e "git+https://github.com/klimente/kekakek.git#egg=stats&subdirectory=src"
 
 example - папка с репортом coverage в html и 'stats_example.ipynb' - пример использования пакета.
 
