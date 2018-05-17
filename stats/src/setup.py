@@ -27,7 +27,7 @@ setup(
         'Programming Language :: Python :: 3.6',
 
     ],
-    packages=find_packages(exclude=['tests', 'example'],include=['stats']),
+    packages=find_packages(exclude=['tests'],include=['stats']),
     install_requires=extract_requirments(os.path.join(DISTRO_ROOT_PATH,'requirements', 'base.txt')),
     test_requires=extract_requirments(os.path.join(DISTRO_ROOT_PATH,'requirements', 'test.txt')),
     test_suite='nose.collector',
