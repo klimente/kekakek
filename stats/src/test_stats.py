@@ -127,12 +127,6 @@ class TestStats(unittest.TestCase):
         )
 
 
-    def test_plot_function_work(self):
-        self.assertEqual(
-            stats.box_plot([[1, 2, 3], [1, 4, 5]]),
-            None
-        )
-
 
     def test_variance(self):
         self.assertEqual(
