@@ -1,5 +1,5 @@
 import unittest
-from stats import stats
+from ..stats import stats
 from unittest.mock import patch
 
 class TestStats(unittest.TestCase):
