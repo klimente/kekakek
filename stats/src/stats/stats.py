@@ -132,20 +132,20 @@ def _validator(check_inner=False):
 
 
 @_validator()
-def missing_data(x, data):
+def missing_data(x, lata):
     """
     Function to get procantage of missing data.
 
     :param x: obtained data.
     :type x: list
-    :param data: full data.
-    :type data: list.
+    :param lata: full data.
+    :type lata: list.
     :return: float.
     :raises: TypeError.
     """
-    if not isinstance(data, list):
+    if not isinstance(lata, list):
         raise TypeError('data type must be list')
-    return 1 - len(x) / len(data)
+    return 1 - len(x) / len(lata)
 
 
 @_validator(check_inner=True)
