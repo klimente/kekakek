@@ -1,5 +1,6 @@
 
 #Hello? America
+[![Build Status](https://travis-ci.org/klimente/kekakek.svg?branch=master)](https://travis-ci.org/klimente/kekakek)
 
 pip install -e "git+https://github.com/klimente/kekakek.git#egg=stats&subdirectory=src"
 
